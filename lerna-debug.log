@@ -1,0 +1,23 @@
+0 silly input [ 'hapi' ]
+1 silly flags { _: [ 'add' ],
+1 silly flags   'reject-cycles': false,
+1 silly flags   rejectCycles: false,
+1 silly flags   scope: 'graphql',
+1 silly flags   args: [ 'hapi' ] }
+2 verbose rootPath /Users/willwright/k8smonorepo/ci-k8s-lerna
+3 info version 2.9.0
+4 silly isInitialized
+5 silly isInitialized true
+6 silly existsSync /Users/willwright/k8smonorepo/ci-k8s-lerna/VERSION
+7 info scope graphql
+8 error EPACKAGES Errored while collecting packages and package graph
+9 error Error: No packages found that match scope 'graphql'
+9 error     at Function.filterPackages (/Users/willwright/.nvm/versions/node/v9.7.0/lib/node_modules/lerna/lib/PackageUtilities.js:226:17)
+9 error     at AddCommand.runPreparations (/Users/willwright/.nvm/versions/node/v9.7.0/lib/node_modules/lerna/lib/Command.js:328:60)
+9 error     at /Users/willwright/.nvm/versions/node/v9.7.0/lib/node_modules/lerna/lib/Command.js:204:18
+9 error     at new Promise (<anonymous>)
+9 error     at AddCommand.run (/Users/willwright/.nvm/versions/node/v9.7.0/lib/node_modules/lerna/lib/Command.js:188:14)
+9 error     at Object.handler (/Users/willwright/.nvm/versions/node/v9.7.0/lib/node_modules/lerna/lib/commands/AddCommand.js:77:14)
+9 error     at Object.self.runCommand (/Users/willwright/.nvm/versions/node/v9.7.0/lib/node_modules/lerna/node_modules/yargs/lib/command.js:233:22)
+9 error     at Object.Yargs.self._parseArgs (/Users/willwright/.nvm/versions/node/v9.7.0/lib/node_modules/lerna/node_modules/yargs/yargs.js:990:30)
+9 error     at Object.Yargs.self.parse (/Users/willwright/.nvm/versions/node/v9.7.0/lib/node_modules/lerna/node_modules/yargs/yargs.js:532:23)
